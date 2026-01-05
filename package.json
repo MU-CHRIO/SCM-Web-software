@@ -5,7 +5,9 @@
   "scripts": {
     "start": "parcel src/index.html --port 3000 --open",
     "build": "parcel build src/index.html",
-    "dev": "parcel src/index.html --port 3000"
+    "dev": "parcel src/index.html --port 3000",
+    "server": " cd backend && node server.js",
+    "quickstart": "concurrently \"npm run build\" \"npm run server\" \"npm run start\""
   },
   "keywords": [],
   "author": "",
@@ -15,12 +17,13 @@
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
     "express": "^5.2.1",
-    "sqlite3": "^5.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.1"
+    "react-router-dom": "^6.14.1",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
+    "concurrently": "^9.2.1",
     "parcel": "^2.10.0"
   }
 }

@@ -1,0 +1,19 @@
+.nav{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;border-radius:16px;background:var(--gradient);color:white;margin:12px 0;box-shadow:0 8px 30px rgba(130,80,200,0.12)}
+.logo{font-weight:800;font-size:18px}
+.logo .accent{color:#ffefef;margin-left:6px}
+.nav a{color:white;margin:0 10px;text-decoration:none;font-weight:600}
+.nav .user-pill{background:rgba(255,255,255,0.12);padding:8px 10px;border-radius:999px;margin-right:10px}
+
+.card{background:var(--card-bg);border-radius:14px;padding:16px;box-shadow:0 8px 20px rgba(17,17,17,0.06);transition:transform .18s ease,box-shadow .18s ease;border:1px solid rgba(255,255,255,0.5);background-image:linear-gradient(135deg,rgba(255,255,255,0.6),rgba(255,255,255,0.3))}
+.card:hover{transform:scale(1.01);box-shadow:0 14px 36px rgba(0,0,0,0.08)}
+.card-header h3{margin:0}
+.card-body{margin-top:8px}
+
+.form-group{display:flex;flex-direction:column;gap:8px}
+.form-label{font-weight:700;font-size:14px}
+.form-input{padding:10px;border-radius:10px;border:1px solid rgba(130,80,200,0.12);background:transparent}
+.form-input:focus{outline:none;box-shadow:0 6px 18px rgba(130,80,200,0.08);border-color:rgba(130,80,200,0.3)}
+
+.btn-ghost{background:transparent;color:inherit;border:1px solid rgba(255,255,255,0.12);padding:8px 12px;border-radius:10px;cursor:pointer}
+
+.muted{color:var(--muted)}

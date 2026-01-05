@@ -1,0 +1,8 @@
+//i want to ignore all log files
+*.log   
+//i want to ignore all files in the temp directory
+/temp/*
+//i want to ignore all .env files
+*.env   
+//i want to ignore all node_modules directories and subdirectories
+node_modules/

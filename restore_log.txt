@@ -1,0 +1,6 @@
+STARTING 
+REMOTE_ADD_ATTEMPTED 
+From github.com:MU-CHRIO/SCM-Web-software
+ * [new branch]      main       -> origin/main
+FETCH_ATTEMPTED 
+Switched to a new branch 'main'
